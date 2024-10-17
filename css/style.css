@@ -60,7 +60,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #1b1f71;
+  background-color: #1b7150;
 }
 
 .sub_page .hero_area {
@@ -261,7 +261,7 @@ a:focus {
   top: 50%;
   border-radius: 5px;
   font-size: 28px;
-  color: #1b1f71;
+  color: #1b7150;
 }
 
 .slider_section .carousel-control-prev:hover,
@@ -307,7 +307,7 @@ a:focus {
 }
 
 .book_section .book_form .input-group-text {
-  background-color: #1b1f71;
+  background-color: #1b7150;
   width: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -370,15 +370,15 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #1b1f71;
-  border: 1px solid #1b1f71;
+  background-color: #1b7150;
+  border: 1px solid #1b7150;
   color: #ffffff;
   border-radius: 5px;
 }
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #1b1f71;
+  color: #1b7150;
 }
 
 .about_section .img-box img {
@@ -400,7 +400,7 @@ a:focus {
   margin: 0 auto;
   margin-top: 90px;
   padding: 25px 25px 45px 25px;
-  background: #1b1f71;
+  background: #1b7150;
   color: #ffffff;
 }
 
@@ -441,7 +441,7 @@ a:focus {
 }
 
 .app_section {
-  background-color: #1b1f71;
+  background-color: #1b7150;
 }
 
 .app_section .row {
@@ -573,7 +573,7 @@ a:focus {
 }
 
 .blog_section .box .detail-box .blog_date {
-  color: #1b1f71;
+  color: #1b7150;
   font-weight: 600;
 }
 
@@ -600,7 +600,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #1b1f71;
+  background-color: #1b7150;
   color: #ffffff;
   padding-top: 45px;
   padding-bottom: 10px;
@@ -716,7 +716,7 @@ a:focus {
 .footer_section {
   position: relative;
   text-align: center;
-  background-color: #1b1f71;
+  background-color: #1b7150;
 }
 
 .footer_section p {
