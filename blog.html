@@ -81,53 +81,60 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/b1.jpg" alt="">
+            <div class="box">
+                <div class="img-box">
+                    <img src="images/b1.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                    <h6 class="blog_date">
+                        29 July 2020
+                    </h6>
+                    <h5>
+                        Hey Everyone, Welcome Back to the EcoRides Vlog!
+                    </h5>
+                    <p>
+                        Today, I want to talk about something really important—why EcoRides is more than just a carpooling app. We’re all about making life easier, but there’s more to it. Our goal is to provide you with a platform that’s not only user-friendly but also reliable, safe, and built with your needs in mind.
+                        <br>
+                        <span id="moreText" style="display:none;">
+                            Think about it: commuting can be stressful, time-consuming, and expensive. But what if there was a way to turn that around, to make your ride more efficient and even enjoyable? That’s where EcoRides comes in. We’ve designed our platform with features that help you save time, money, and the planet—all while meeting awesome new people along the way.
+                            <br>
+                            Our team works hard to make sure every detail is taken care of, so you can focus on getting where you need to go, worry-free. Thanks for watching, and don’t forget to check out EcoRides for your next ride!
+                        </span>
+                    </p>
+                    <a href="javascript:void(0);" id="readMoreLink" onclick="toggleReadMore()">Read More</a>
+                </div>
             </div>
-            <div class="detail-box">
-              <h6 class="blog_date">
-                29 July 2020
-              </h6>
-              <h5>
-                Hey Everyone, Welcome Back to the EcoRides Vlog!
-              </h5>
-              <p>
-                Today, I want to talk about something really important—why EcoRides is more than just a carpooling app. We’re all about making life easier, but there’s more to it. Our goal is to provide you with a platform that’s not only user-friendly but also reliable, safe, and built with your needs in mind.
-<br>
-                Think about it: commuting can be stressful, time-consuming, and expensive. But what if there was a way to turn that around, to make your ride more efficient and even enjoyable? That’s where EcoRides comes in. We’ve designed our platform with features that help you save time, money, and the planet—all while meeting awesome new people along the way.
-                <br>
-                Our team works hard to make sure every detail is taken care of, so you can focus on getting where you need to go, worry-free. Thanks for watching, and don’t forget to check out EcoRides for your next ride!
-              </p>
-              <a href="">
-                Read More
-              </a>
-            </div>
-          </div>
         </div>
+      </div>
+      
+      <div class="row">
         <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/b2.jpg" alt="">
+            <div class="box">
+                <div class="img-box">
+                    <img src="images/b1.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                    <h6 class="blog_date">
+                        29 July 2020
+                    </h6>
+                    <h5>
+                      Welcome to the EcoRides Vlog!
+                    </h5>
+                    <p>
+                      Hey everyone! Today, I want to talk about something super exciting—EcoRides and the amazing things we’re working on. You know, in life, we’re always looking for ways to improve and make things easier. That’s exactly what we’re doing here—providing something valuable and making a real difference.
+                        <br>
+                        <span id="moreText" style="display:none;">
+                          At EcoRides, we believe in creating solutions that are not only convenient but also sustainable. Our mission is to build a platform that solves everyday problems in a way that benefits you, the community, and the environment.
+                            <br>
+                            Our team works hard to make sure every detail is taken care of, so you can focus on getting where you need to go, worry-free. Thanks for watching, and don’t forget to check out EcoRides for your next ride!
+                        </span>
+                    </p>
+                    <a href="javascript:void(0);" id="readMoreLink" onclick="toggleReadMore()">Read More</a>
+                </div>
             </div>
-            <div class="detail-box">
-              <h6 class="blog_date">
-                30 July 2020
-              </h6>
-              <h5>
-                Welcome to the EcoRides Vlog!
-              </h5>
-              <p>
-                Hey everyone! Today, I want to talk about something super exciting—EcoRides and the amazing things we’re working on. You know, in life, we’re always looking for ways to improve and make things easier. That’s exactly what we’re doing here—providing something valuable and making a real difference.
-<br>
-                At EcoRides, we believe in creating solutions that are not only convenient but also sustainable. Our mission is to build a platform that solves everyday problems in a way that benefits you, the community, and the environment.
-                <br>
-                Whether you're tired of expensive solo commutes or looking to reduce your carbon footprint, we’ve got you covered! With our service, you can share rides, meet new people, and help make the world a little greener. Stay tuned for more updates, and make sure to try out EcoRides!
-              </p>
-              
-            </div>
-          </div>
         </div>
+    </div>
+    
       </div>
     </div>
   </section>
@@ -225,7 +232,20 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+    function toggleReadMore() {
+        var moreText = document.getElementById("moreText");
+        var linkText = document.getElementById("readMoreLink");
 
+        if (moreText.style.display === "none") {
+            moreText.style.display = "inline";
+            linkText.innerHTML = "Read Less"; // Change the text to "Read Less"
+        } else {
+            moreText.style.display = "none";
+            linkText.innerHTML = "Read More"; // Change it back to "Read More"
+        }
+    }
+</script>
 </body>
 
 </html>
